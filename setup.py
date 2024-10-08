@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 import os
 
-MODULE_STUB = 'aps3'
+MODULE_STUB = 'aps4'
 
 def find_subdir(start_dir):
     # Get the list of all subdirectories starting at the given path
@@ -12,16 +12,16 @@ def find_subdir(start_dir):
 
 # Adiciona todos os arquivos encontrados ao package_data
 setup(
-    name="aps3",
+    name="aps4",
     version="0.1.0",
     description="Cubo",
     author="Caio Frigerio",
     author_email="caioliberal@gmail.com",
-    url="https://github.com/Caiolib/aps3",
+    url="https://github.com/Caiolib/aps4",
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        'aps3': ['contas.py', *find_subdir(f'{MODULE_STUB}/assets')], 
+        'aps4': ['contas.py', *find_subdir(f'{MODULE_STUB}/assets')], 
     },
     install_requires=[
         "numpy==2.1.2",
@@ -30,7 +30,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'aps3=aps3.app:main',
+            'aps4=aps4.app:main',
         ],
     },
     classifiers=[

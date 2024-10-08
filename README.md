@@ -10,10 +10,9 @@ Este projeto tem como objetivo implementar uma projeção 3D em tempo real de um
 Para rodar este projeto, siga os passos abaixo:
 
 - Certifique-se de ter Python instalado em sua máquina.
-- Instale a biblioteca Pygame. Você pode fazer isso executando o comando pip install pygame no terminal.
-- Clone este repositório para sua máquina local.
-- Navegue até o diretório do projeto e execute o arquivo principal com o comando python main.py.
-
+- digite pip install git+https://github.com/Caiolib/aps4algin
+- apos digite aps4 no terminal
+- Se estiver com error primeiro digite pip install wheel e depois pip install git+
 # Uso
 
 Uma vez iniciado, o programa exibirá um cubo em wireframe girando em todas as direções. Você pode interagir com o programa da seguinte forma:

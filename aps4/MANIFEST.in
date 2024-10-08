@@ -1,0 +1,2 @@
+include aps4/contas.py
+recursive-include aps4/assets *
